@@ -740,6 +740,21 @@ main { position: relative; z-index: 1; }
     </div>
   </section>
 </main>
+<nav class="vswitch" aria-label="디자인 버전">
+<style>
+.vswitch{position:fixed;z-index:300;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:4px;padding:5px;background:rgba(10,10,14,.82);border:1px solid rgba(255,255,255,.18);border-radius:999px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);font:500 12px/1 ui-monospace,"SF Mono",Menlo,monospace;letter-spacing:.04em;box-shadow:0 8px 30px rgba(0,0,0,.45)}
+.vswitch .lbl{color:rgba(255,255,255,.55);padding:0 8px 0 10px;font-size:10px;letter-spacing:.14em}
+.vswitch a{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;color:rgba(255,255,255,.78);text-decoration:none;white-space:nowrap;transition:background .2s,color .2s}
+.vswitch a:hover{background:rgba(255,255,255,.12);color:#fff}
+.vswitch a[aria-current]{background:#fff;color:#0a0a0e}
+.vswitch a b{font-weight:700}
+.vswitch a:focus-visible{outline:2px solid #fff;outline-offset:2px}
+@media (max-width:900px){.vswitch a span{display:none}.vswitch a{padding:8px 10px}}
+@media (max-width:640px){.sysclock{display:none}}
+</style>
+<span class="lbl">DESIGN</span><a href="v1-amber.html" title="Amber"><b>01</b><span>Amber</span></a><a href="v2-blue.html" title="Blue"><b>02</b><span>Blue</span></a><a href="v3-steam.html" title="Cyber × Steam"><b>03</b><span>Cyber × Steam</span></a><a href="v4-2088.html" aria-current="page" title="Cyberpunk 2088"><b>04</b><span>Cyberpunk 2088</span></a>
+</nav>
+
 
 <script>
 (() => {

@@ -34,7 +34,21 @@ Taehee Brad Lee의 이력서 & 포트폴리오 페이지입니다. Claude Code�
 
 12. > 지금하는 길, 걸어온 길에서 ㄹ이 너무 두꺼워서 잘 안보여
 
+13. > 지금까지 만든 여러 디자인버전들을 전부 볼 수 있도록 버튼같은거 추가해줘
+
+## 디자인 버전
+
+페이지 오른쪽 아래 DESIGN 버튼으로 전환할 수 있습니다.
+
+| # | 테마 | 링크 |
+|---|---|---|
+| 01 | Amber | [v1-amber.html](https://kairess.github.io/resume-test/v1-amber.html) |
+| 02 | Blue | [v2-blue.html](https://kairess.github.io/resume-test/v2-blue.html) |
+| 03 | Cyber × Steam | [v3-steam.html](https://kairess.github.io/resume-test/v3-steam.html) |
+| 04 | Cyberpunk 2088 (기본) | [v4-2088.html](https://kairess.github.io/resume-test/v4-2088.html) |
+
 ## 구성
 
-- `index.html` — 단일 페이지 (외부 라이브러리 없이 HTML/CSS/JS로 작성)
+- `index.html` — 기본 페이지 (현재 디자인, 외부 라이브러리 없이 HTML/CSS/JS로 작성)
+- `v1-amber.html` ~ `v4-2088.html` — 디자인 버전별 페이지
 - `img/` — GitHub 프로필 사진, 유튜브 영상 썸네일
