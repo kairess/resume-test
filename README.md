@@ -4,6 +4,8 @@ Taehee Brad Lee의 이력서 & 포트폴리오 페이지입니다. Claude Code�
 
 **Live:** https://kairess.github.io/resume-test/
 
+> 이 저장소와 페이지는 교육용입니다. 마음껏 사용하시기 바랍니다.
+
 ## 사용한 프롬프트
 
 아래 프롬프트들을 순서대로 입력해서 만들었습니다.
